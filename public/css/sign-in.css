@@ -1,0 +1,39 @@
+body{
+  height: 100%;
+  font-family: 'Belanosima', sans-serif;
+  font: black;
+}
+
+
+
+.bg{
+  background: url("/assests/index-bg.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 80vh;
+  width: 80vh;
+  background-color: #FFEBEB;
+  opacity: 70%;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  border-radius: 50%;
+}
