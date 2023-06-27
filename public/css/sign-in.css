@@ -4,13 +4,12 @@ body{
   font: black;
 }
 
-
-
-.bg{
+.bg{ 
   background: url("/assests/index-bg.png");
   height: 100%;
+  background-size: auto 100%;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
   
   
